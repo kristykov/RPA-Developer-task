@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="contact" class="contact-me">
+        <div class="container-content">
+          <h2 style="margin-left: 40px;">Contact Me</h2>
+          <div class="content">
+            <form action="" method="post">
+              <div class="input-group">
+                <input id="contact-name" type="text" name="contact-name"  />
+                <label for="contact-name">Name</label>
+              </div>
+  
+              <div class="input-group phone">
+                <label for="contact-phone">Phone Number</label>
+                  <div class="input-number">
+                    <input id="contact-phone" formenctype novalidate class="phone-number" type="tel" name="contact-phone" required />
+                    <button class="add-number">+</button>
+                  </div>
+              </div>
+  
+              <div class="input-group message">
+                <textarea id="contact-message" name="contact-message" rows="5" ></textarea>
+                <label for="contact-message">Message</label>
+              </div>
+              <input type="submit" class="submit-btn" value="Send"/>
+            </form>
+          </div>
+        </div>
+      </section>
+    <script src="script.js"></script>        
+</body>
+</html>
